@@ -1,0 +1,205 @@
+#left_menu,  .footer-wrap {display:none !important;}
+#content_in {border-left:none;  margin-left:75px; margin-top:15px; width:745px; min-height:700px; } #content {min-height:800px; }
+#searchform {display:none;}
+.login { top:130px; right:120px; }
+
+.signUpForm{   width:240px !important;
+	background: -moz-linear-gradient(center top , #FFFFFF 0pt, #DDDDDD 100%) repeat scroll 0 0 transparent;
+	background: -webkit-linear-gradient(top,white 0,#DDD 100%);
+	background: linear-gradient(top,white 0,#DDD 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFFFFF', endColorstr='#DDDDDD'); /* IE6 & IE7 */  
+	-ms-filter:"progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFFFFF', endColorstr='#DDDDDD')"; /* IE8+ */  
+	background-color:#EFEFEF;
+    border-bottom: 1px solid #CCCCCC;
+    border-left: 1px solid #EEEEEE;
+    border-right: 1px solid #EEEEEE;
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    position: relative;opacity:0.95; filter:alpha(opacity=95);
+}
+.signUpForm { float:left; margin-left:0px; padding:10px 10px 10px 10px; }
+.fieldLikeTwitter{
+	margin-top:5px;
+}
+.fieldLikeTwitter input {
+    background-color: #FFFFFF;
+    border: 1px solid #CCCCCC;
+    border-radius: 3px 3px 3px 3px;
+    display: inline-block;
+    margin: 0;
+    outline: medium none;
+    padding: 4px;
+    width: 230px;
+    height:28px;
+    box-shadow: 0 1px 0 #EEEEEE inset, 0 1px 0 #FFFFFF;
+    
+}
+
+
+.fieldLikeTwitter input:focus {
+	outline: none;
+}
+
+.fieldLikeTwitter .username-label, .fieldLikeTwitter .password-label,.fieldLikeTwitter .repeatpassword-label
+{
+display:none;
+	position: absolute;
+	margin: 6px 9px 9px 6px;
+	color:#999999;
+	font-size: 12px;
+	font-weight:normal;
+}
+
+
+a, a:visited, a:hover {
+	text-decoration: none;
+	
+}
+
+ .fieldLikeTwitter input:focus{
+    border: 1px solid #56B4EF;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05) inset, 0 0 8px rgba(82, 168, 236, 0.6);
+}
+
+.signUpForm .Sheader {
+    border-bottom: 1px solid #E2E2E2;
+    box-shadow: 0 1px 0 #FFFFFF;
+    color: #777777;
+    display: block;
+    font-size: 16px;
+    font-weight: 300;
+    margin-bottom: 12px;
+    padding: 5px 12px 10px;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.6);
+}
+.signUpForm .Sheader strong {
+    color: #333333;
+    font-weight: 500;
+}
+.signUpForm .btn {
+    height: 30px;
+    margin: 0;
+    float: left;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.signUpForm .signup-btn {
+background: #ffd65e; /* Old browsers */
+background: -moz-linear-gradient(top,  #ffd65e 0%, #febf04 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffd65e), color-stop(100%,#febf04)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #ffd65e 0%,#febf04 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #ffd65e 0%,#febf04 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #ffd65e 0%,#febf04 100%); /* IE10+ */
+background: linear-gradient(top,  #ffd65e 0%,#febf04 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffd65e', endColorstr='#febf04',GradientType=0 ); /* IE6-9 */
+
+font-size:13px; font-weight:bold; font-family:"Helvetica Neue",Arial,sans-serif; 
+padding:0 10px;
+text-shadow:1px 1px 0 #ddd;
+color:#333;
+
+}
+.demo_button{
+	float: right;
+	padding-right:3px;
+	margin-top:10px;
+}
+.clear{
+	clear:both;
+}
+#loginB a {margin-right:30px; float:right;  }
+#newad2 {display:none; } 
+.wrap-adv {	position:relative; float:right; width:300px; opacity:0.95; filter:alpha(opacity=95); height:215px; overflow:hidden;  padding:40px; font-family:Verdana, Arial, sans-serif !important;
+background: -moz-linear-gradient(center top , #FFFFFF 0pt, #DDDDDD 100%) repeat scroll 0 0 transparent;
+	background: -webkit-linear-gradient(top,white 0,#DDD 100%);
+	background: linear-gradient(top,white 0,#DDD 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFFFFF', endColorstr='#DDDDDD'); /* IE6 & IE7 */  
+	-ms-filter:"progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFFFFF', endColorstr='#DDDDDD')"; /* IE8+ */  
+	background-color:#EFEFEF;
+	border-radius:7px 7px 7px 7px; -webkit-border-radius:7px 7px 7px 7px; -moz-border-radius:7px 7px 7px 7px; margin-top:20px;
+	}
+#start-ad {position:absolute; top:0; left:0; width:1500px; height:235px;  }
+#start-ad li { margin:100px 50px 50px !important; width:250px; letter-spacing:1; }
+#content h2 { color:white; font-size:28px;text-align:left !important; margin-bottom:20px !important; padding-top:50px;text-shadow:1px 1px 1px #000; }
+#content h2 a {color:#ddd; }
+div#recaptcha_image > img{
+height:46px;
+width:240px;
+}
+#loginMenu label {
+	vertical-align:middle;
+	line-height:15px;
+	font-family: Arial, Helvetica, sans-serif;
+	float: none;
+	text-align: left;
+	padding-left: 20px;
+	width: 100px;
+	color: #069;
+}
+
+#loginMenu {
+	box-shadow: 0px 0px 5px #698EC7;
+	-moz-box-shadow: 0px 0px 5px #698EC7;
+	-webkit-box-shadow: 0px 0px 5px #698EC7;
+	cellspacing:0px;
+	position:absolute;
+	right:39px;
+	z-index:250;
+	text-align: right;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	top: 10px;
+	padding: 10px;
+	background-color: #EFF2F7;
+	border: 1px solid #069;
+}
+
+
+
+
+
+
+#loginMenu td {
+	text-align: left;
+	vertical-align: middle;
+	padding: 2px;
+}
+#loginMenu a {
+	text-decoration: none;
+	color: #069;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	display: block;
+	line-height: 15px;
+	vertical-align: middle;
+}
+#loginMenu a:hover {
+	text-decoration: underline;
+}
+
+
+#loginMenu input {
+	width: 110px;
+	font-size: 12px;
+}
+#loginMenu p {
+	margin: 3px;
+}
+
+#loginMenu #login {
+	width: 50px;
+	color: #FFF;
+	border: 1px solid #698EC7;
+	background-color: #698EC7;
+	font-weight: bold;
+}
+#loginMenu #remember {
+	padding-top:5px;
+	width: 14px;
+	height:15px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	position: absolute;
+	left: 17px;
+	top: 15px;
+}
